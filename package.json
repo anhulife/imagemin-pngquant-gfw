@@ -1,6 +1,6 @@
 {
   "name": "imagemin-pngquant-gfw",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "pngquant imagemin plugin for gfw",
   "license": "MIT",
   "repository": "anhulife/imagemin-pngquant-gfw",

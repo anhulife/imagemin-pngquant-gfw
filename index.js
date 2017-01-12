@@ -1,7 +1,6 @@
 'use strict';
 
 var isPng = require('is-png');
-var pngquant = require('pngquant-bin-gfw');
 var spawn = require('child_process').spawn;
 var through = require('through2');
 
@@ -59,7 +58,7 @@ module.exports = function (opts) {
 			args.push('--verbose');
 		}
 
-		var cp = spawn(pngquant, args);
+		var cp = spawn('pngquant', args);
 
 		cp.on('error', function (err) {
 			cb(err);
